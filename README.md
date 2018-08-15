@@ -1,0 +1,1 @@
+# personal-ionic-app
