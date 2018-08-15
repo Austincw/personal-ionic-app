@@ -7,7 +7,7 @@ ionic_app = Blueprint('personal-ionic-app', __name__)
 @ionic_app.route('/email', methods=['POST'])
 def sendContactEmail():
 
-    data = request.get_json(silent=True)
+    data = request.get_json(silent=True, force=True)
 
     email_data = data['email']
     message = data['msg']
