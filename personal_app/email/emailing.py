@@ -4,7 +4,7 @@ import smtplib
 import os
 
 
-def sendEmail(email, bodyInformation):
+def sendemail(email, bodyInformation):
     try:
         cc = [os.environ['EMAIL']]
 

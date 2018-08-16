@@ -1,7 +1,7 @@
-from flask import Blueprint, render_template, request,jsonify
-from email import email
+from flask import Blueprint, request
+from personal_app.email import emailing
 
-ionic_app = Blueprint('personal-ionic-app', __name__)
+ionic_app = Blueprint('personal_app', __name__)
 
 
 @ionic_app.route('/email', methods=['POST'])
@@ -12,6 +12,6 @@ def sendContactEmail():
     email_data = data['email']
     message = data['msg']
 
-    email.sendEmail(email_data, message)
+    emailing.sendemail(email_data, message)
 
     return

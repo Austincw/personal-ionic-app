@@ -1,1 +1,1 @@
-web gunicorn personal-ionic-app:app
+web: gunicorn personal_app:app

@@ -1,6 +1,6 @@
 from flask import Flask
 
-from api_controllers.api_controllers import ionic_app
+from personal_app.api_controllers.api_controllers import ionic_app
 
 app = Flask(__name__)
 
