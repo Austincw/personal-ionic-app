@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30b314ef-7098-4a5a-8587-640e1023b490" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/personal_app/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_controllers/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/personal_app/email/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_controllers/api_controllers.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/email/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/email/email.py" beforeDir="false" afterPath="$PROJECT_DIR$/personal_app/email/email.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal_app/api_controllers/api_controllers.py" beforeDir="false" afterPath="$PROJECT_DIR$/personal_app/api_controllers/api_controllers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal_app/email/emailing.py" beforeDir="false" afterPath="$PROJECT_DIR$/personal_app/email/emailing.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,13 +14,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="api_controllers.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="api_controllers.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/personal_app/api_controllers/api_controllers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
+            <state relative-caret-position="195">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
               <folding>
-                <element signature="e#0#36#0" expanded="true" />
+                <element signature="e#0#60#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -40,11 +35,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="email.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/personal_app/email/email.py">
+      <file leaf-file-name="emailing.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/personal_app/email/emailing.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="210">
+              <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
               <folding>
                 <element signature="e#0#46#0" expanded="true" />
               </folding>
@@ -94,9 +89,10 @@
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/personal-ionic/api_controllers/api_controllers.py" />
         <option value="$PROJECT_DIR$/personal_app/__init__.py" />
-        <option value="$PROJECT_DIR$/personal_app/api_controllers/api_controllers.py" />
         <option value="$PROJECT_DIR$/personal_app/email/email.py" />
         <option value="$PROJECT_DIR$/Procfile" />
+        <option value="$PROJECT_DIR$/personal_app/email/emailing.py" />
+        <option value="$PROJECT_DIR$/personal_app/api_controllers/api_controllers.py" />
       </list>
     </option>
   </component>
@@ -282,22 +278,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/personal_app/api_controllers/api_controllers.py">
+    <entry file="file://$PROJECT_DIR$/personal_app/email/emailing.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
+        <state relative-caret-position="210">
+          <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
           <folding>
-            <element signature="e#0#36#0" expanded="true" />
+            <element signature="e#0#46#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/personal_app/email/email.py">
+    <entry file="file://$PROJECT_DIR$/personal_app/api_controllers/api_controllers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="195">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
           <folding>
-            <element signature="e#0#46#0" expanded="true" />
+            <element signature="e#0#60#0" expanded="true" />
           </folding>
         </state>
       </provider>
