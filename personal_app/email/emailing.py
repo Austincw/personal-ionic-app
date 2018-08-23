@@ -28,7 +28,7 @@ def sendemail(email, bodyInformation):
 
     except KeyError as e:
 
-        print(e + 'Missing Email or Password, no email was sent')
-        return e + 'Missing Email or Password, no email was sent'
+        print('{0} Missing Email or Password, no email was sent'.format(e))
+        return '{0} Missing Email or Password, no email was sent'.format(e)
 
     return "Email successful"
