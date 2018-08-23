@@ -31,4 +31,4 @@ def sendemail(email, bodyInformation):
         print(e + 'Missing Email or Password, no email was sent')
         return e + 'Missing Email or Password, no email was sent'
 
-
+    return "Email successful"
